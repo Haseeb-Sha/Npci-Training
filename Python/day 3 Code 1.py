@@ -26,5 +26,5 @@ print("list converted to dict",lst_dct)
 
 for i in sorted (lst_dct):
     print(i,lst_dct[i])
-
+su
     
