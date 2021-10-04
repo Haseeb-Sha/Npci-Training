@@ -1,0 +1,56 @@
+1.	
+Python is strongly typed as the interpreter keeps track of all variables types. 
+It's also very dynamic as it rarely uses what it knows to limit variable usage. 
+In Python, it's the program's responsibility to use built-in functions like 
+isinstance() and issubclass() to test variable types and correct usage. 
+Python tries to stay out of your way while giving you all you need to implement strong type checking.
+
+
+2.
+Syntax:
+It refers to the rules and regulations for writing any statement in a programming language like C/C++.
+It does not have to do anything with the meaning of the statement.
+A statement is syntactically valid if it follows all the rules.
+It is related to the grammar and structure of the language.
+Semantics:
+It refers to the meaning associated with the statement in a programming language.
+It is all about the meaning of the statement which interprets the program easily.
+Errors are handled at runtime.
+
+3.	
+Data Types In Python
+Numerical Data Type
+Strings i="azaan haseeb suhail prakhar"
+Lists ls=[]
+Tuples ls=()
+Sets ls={}
+Dictionary ls={}
+Range
+
+Numerical data type holds numerical value. In numerical data there are 4 sub types as well. 
+Following are the sub-types of numerical data type: 
+
+Integers i=123
+Float i=10.0
+Complex Numbers i =a+i3
+Boolean i=True
+
+4.	
+Conditional Statements in python are
+if if i<4: print(whuh)
+else else: print(boo)
+elif elif :print(nah)
+for for i in range (0 ,10): print(i)
+while while (i<10): print(i)
+
+5 .	
+Functions as first class citizens means that, you can pass functions around just like other objects. 
+That means, you can assign functions to variables, you can pass them along as arguments, 
+you can store them in bigger data structures, 
+define them inside another function and also return them from another function, 
+just like any other objects.
+def hello_func():
+  print("hello")
+
+print(dir(hello_func)
+
